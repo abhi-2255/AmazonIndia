@@ -1,0 +1,498 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+
+.navbar{
+    background-color: #0f1111;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+} 
+.box{
+
+    border:1px solid white transparent;
+}
+.box:hover{
+    border:1px solid white ;
+    transition: 0.3s;
+}
+.nav-box1{
+   
+   width:113px ;
+    height: 50px;
+    background-image: url("/images/amazon-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor:pointer;
+}
+.nav-box2{
+
+    display: flex;
+    cursor: pointer;
+    padding:3px;
+    width:150px;
+
+}
+.left-box2{
+
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.right-box{
+    margin-left: 5px;
+}
+.first-right-box2{
+    color: #cccccc;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top:5px ;
+    
+    
+   
+}
+.second-right-box2{
+    color: #ffffff;
+    font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     margin-top: 3px;
+     width:127px;
+     height:15px;
+    
+}
+.nav-box3{
+    margin:25px 20px 20px 45px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height:40px;
+    width: 900px;
+    border-radius: 20px;
+}
+.nav-input input{
+    width:750px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+  
+}
+
+
+.nav-select{
+    background-color: #e6e6e6;
+    height: 40px;
+    width:40px;
+    border: none;
+    border-radius: 3px;
+    color: #0f1111;
+
+
+    
+}
+.searchicon{
+    background-color: rgb(234, 170, 10);
+    height: 100%;
+    width: 35px;
+    border: none;
+    border-radius: 3px;
+
+   
+}
+.searchicon i{
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-left: 7px;
+}
+.nav-box4{
+    display:flex;
+    width:70px;
+    height:px;
+    margin: 15px;
+    color:white;
+   
+    
+    
+}
+.nav-box4 img{
+    height:22px;
+    width:20px;
+    margin-top:10px;
+}
+.box4-select{
+    background-color: #0f1111;
+    color: #ffffff;
+    margin-top:6px;
+    width:40px;
+    border:none;
+   
+
+}
+.nav-box5{
+    margin:20px 5px 5px;
+    
+    
+   
+   
+}
+.top-box5{
+    font-size: 12px;
+    width:100px;
+    height:16px;
+    padding: 0 0 0 10px;
+    
+    
+}
+.bottom-box5{
+    
+    width:140px;
+    height:30px;
+    display: flex;
+   
+}
+.bottom-box5 p{
+    font-weight: 500;
+
+}
+.box5-select{
+    background-color:  #0f1111;
+    border:none;
+    font-size:5px;
+    height:15px;
+
+}
+
+.nav-box6{
+    margin:30px 5px ;
+    height:60px;
+    width:85px;
+    
+    
+   
+   
+}
+.top-box6{
+    font-size: 12px;
+    width:70px;
+    height:14px;
+    padding: 0 0 0 10px;
+    margin-top: 14px;
+    
+    
+}
+.bottom-box6{
+   font-size: 14px;
+    width:113px;
+    height:30px;
+    margin-top: 3px;
+
+   
+}
+.boxw{
+    font-weight: 700;
+}
+.nav-box7{
+    display: flex;
+    margin-right: 10px;
+}
+/*************************header menu  ***************************/
+.menu{
+    background-color: #232f3e;
+    color:white;
+    width:100%;
+    height:40px;
+   display: flex;
+  
+}
+.menuul{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+.imagediv{
+    width:350;
+    height:39px;
+}
+/***********************MAIN******************************/
+ .heropage{
+    width: 100%;
+    height: 300px;
+background-image: url("images/amazon-img1.jpg");
+background-size: cover;
+background-repeat: no-repeat; 
+
+ } 
+
+ .shopping{
+    background-color: #EC7194;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly; 
+    align-items: flex-start;
+     width: 100%;
+     height:70%;
+
+ }
+ .shopbox{
+    padding-top:20px ;
+    
+    height:440px;
+    width:350px;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align:center ;
+    margin:10px;
+
+ }
+ .shop{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+ }
+
+ .imgshop img{ 
+    
+    height:100px;
+    
+} 
+
+.oneimage{
+background-image: url("images/headphone.jpg");
+background-position: center;
+background-size: cover;
+width: 280px;
+height:300px;
+margin:20px 30px
+}
+shopbox a{
+    text-decoration: none;;
+}
+.watchcollection{
+   background-color: #E3E6E6;
+   height:300px;
+   width: 100%;
+   padding:15px;
+}
+.collectionbox{
+    width:100%;
+    height:250px;
+    background-color: white;
+    display: flex;
+
+   
+}
+.watchbox{
+    width:300px;
+    height:250px;
+    
+}
+.first{
+    background-image: url("images/watch1.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.second{
+    background-image: url("images/watchimg2.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.third{
+    background-image: url("images/warch3.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth{
+    background-image: url("images/watch4.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fifth{
+    background-image: url("images/watch5.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sixth{
+    background-image: url("images/watch7.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.seventh{
+    background-image: url("images/watch1.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.eighth{
+    background-image: url("images/watchimg2.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mainlast{
+    width:300px;
+    height:100px;
+    margin:10px auto;
+}
+
+.buttons{
+    padding:10px;
+    margin-left:55px;
+}
+.mainlast small{
+    margin-left:20px;
+} 
+.back{
+    width: 100%;
+    height:60px;
+    background-color: #485769;
+    color: white;
+}
+.top{
+    margin: 0px auto;
+    padding-top: 20px;
+    width:100px;
+    height:30px;
+    text-emphasis: center;
+}
+footer{
+    width:100%;
+    height:400px;
+    background-color: #232F3E;
+
+}
+.footermain{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+.subfoot a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.buttons button{
+    background-color: #FFC52F;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+.subfoot li{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.subfoot ul{
+margin-top: 30px;
+}
+
+
+ul li {
+    margin-bottom: 10px;
+}
+.footermid{
+    display:flex;
+    
+    align-items: center;
+    width:300px;
+    height:50px;
+    margin:20px auto;
+    
+}
+    
+.logo{
+    width:100px;
+    height:60px;
+    background-image: url("images/logoog.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-left: 20px;
+    
+
+}
+.lang-btn{
+    display:flex;
+    margin: 20px 0 20px 70px;
+    border:1px solid white;
+    height:30px; 
+    padding:2px;
+}
+.right h3{
+    color: white;
+}
+.footerend{
+    width:50%;
+    margin:20px auto;
+    
+}
+.footerend ul{ 
+    display: flex;
+    list-style: none;
+
+}
+.div-ul ul a{
+    color:white;
+    text-decoration: none;
+}
+.div-ul ul li{
+    margin-right: 8px;
+   
+}
+.footerfinish{
+    background-color: #131A22;
+    width: 100%;
+    height:130px;
+}
+.lastmain{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.firstmain h3{
+    color:white;
+    margin-bottom:5px;
+
+}
+.firstmain a{
+    text-decoration: none;
+    color: white;
+}
+.firstmain{
+    width:100px;
+    font-size: 14px;
+
+
+}
